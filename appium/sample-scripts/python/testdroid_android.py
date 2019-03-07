@@ -15,7 +15,8 @@ from testdroid_utils import TDUtils
 
 class TestdroidAndroid(unittest.TestCase):
     def setUp(self):
-
+        String testdroid_username = env.get("TESTDROID_USERNAME");
+        String testdroid_password = env.get("TESTDROID_PASSWORD");
         #
         # IMPORTANT: Set the following parameters.
         # You can set the parameters outside the script with environment
